@@ -64,7 +64,7 @@ git clone https://github.com/rsylee/heart-failure-survival-analysis.git
 cd heart-failure-survival-analysis
 pip install -r requirements.txt
 ```
-
+ 
 
 
 ## Requirements
