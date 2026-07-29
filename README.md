@@ -2,7 +2,7 @@
 
 An end-to-end machine learning project predicting 30-day mortality in heart failure patients, built on the [Chicco & Jurman (2020)](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5) clinical dataset. Includes exploratory data analysis, statistical testing, unsupervised and supervised learning, hyperparameter optimization, ensemble methods, feature selection, and an interactive Streamlit prediction app.
 
----
+
 
 ## Key Findings
 
@@ -11,7 +11,7 @@ An end-to-end machine learning project predicting 30-day mortality in heart fail
 - **Unsupervised clustering** (K-Means, Hierarchical) achieved ~55% accuracy without labels — supervised learning was necessary for meaningful prediction
 - **Optuna (Random Sampler)** outperformed GridSearchCV on test accuracy (75.6% vs 73.3%), finding continuous-range parameters that a fixed grid cannot
 
----
+
 
 ## Streamlit App
 
@@ -27,7 +27,6 @@ streamlit run predictor_visualization.py
 - Feature importance visualization
 - Risk level classification (Low / Moderate / High)
 
----
 
 
 ## Notebooks (Recommended Order)
@@ -42,7 +41,7 @@ streamlit run predictor_visualization.py
 | 6 | Ensemble Methods | RF vs GB vs LightGBM, MCC metric, Optuna tuning |
 | 7 | Feature Selection | Lasso, Elastic Net, MRMR, RF importance, clinical insights |
 
----
+
 
 ## Model Comparison Summary
 
@@ -56,7 +55,7 @@ streamlit run predictor_visualization.py
 | KNN | 0.667 | 0.348 | — | — |
 | Dummy Baseline | 0.678 | 0.000 | — | — |
 
----
+
 
 ## Installation
 
@@ -66,7 +65,7 @@ cd heart-failure-survival-analysis
 pip install -r requirements.txt
 ```
 
----
+
 
 ## Requirements
 
@@ -85,14 +84,14 @@ xgboost
 jupyter
 ```
 
----
+
 
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.  
 Copyright (c) 2026 Rachel Sooyeon Lee
 
----
+
 
 ## Resources
 
