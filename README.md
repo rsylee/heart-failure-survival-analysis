@@ -29,26 +29,6 @@ streamlit run predictor_visualization.py
 
 ---
 
-## Project Structure
-
-```
-heart-failure-survival-analysis/
-│
-├── EDA.ipynb                            # Exploratory data analysis & distributions
-├── Statistical_Analysis.ipynb           # Welch's t-tests, Mann-Whitney U, BH-FDR correction
-├── Data_Normalization.ipynb             # Z-score normalization, PCA, K-Means, Hierarchical clustering
-├── Supervised_Learning_and_ML.ipynb     # 8 classifiers compared (LR, SVM, RF, KNN, NB, GB, LightGBM)
-├── Optimize_Machine_Learning.ipynb      # Manual search, GridSearchCV, Optuna (Random + Bayesian)
-├── Ensemble_Methods.ipynb               # RF vs Gradient Boosting vs LightGBM + MCC evaluation
-├── Feature_Selection.ipynb              # Lasso, Elastic Net, MRMR, RF importance + clinical insights
-│
-├── predictor_visualization.py           # Streamlit web app for interactive survival prediction
-├── heart_failure_clinical_records_dataset.csv
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## Notebooks (Recommended Order)
 
