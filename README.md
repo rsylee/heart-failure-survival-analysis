@@ -1,6 +1,6 @@
 # Heart Failure Survival Analysis
 
-An end-to-end machine learning project predicting 30-day mortality in heart failure patients, built on the [Chicco & Jurman (2020)](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5) clinical dataset. Includes exploratory data analysis, statistical testing, unsupervised and supervised learning, hyperparameter optimization, ensemble methods, feature selection, and an interactive Streamlit prediction app.
+An end-to-end machine learning project predicting 30-day mortality in heart failure patients, built on the [Chicco & Jurman (2020)](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5) clinical dataset. This includes exploratory data analysis, statistical testing, unsupervised and supervised learning, hyperparameter optimization, ensemble methods, feature selection, and an interactive Streamlit prediction web app.
 
 
 
